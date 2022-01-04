@@ -1,0 +1,28 @@
+{
+  "name": "escapethefactory",
+  "version": "0.0.1",
+  "description": "A game where you have to escape a factory",
+  "main": "./www/index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/prolight14/escapethefactory.git"
+  },
+  "keywords": [
+    "typescript",
+    "javascript",
+    "phaser"
+  ],
+  "author": "prolight14",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/prolight14/escapethefactory/issues"
+  },
+  "homepage": "https://github.com/prolight14/escapethefactory#readme",
+  "dependencies": {
+    "phaser": "^3.55.2",
+    "webpack": "^5.65.0"
+  }
+}
