@@ -1,6 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-var playScene_1 = require("./scenes/playScene");
+var playScene_1 = require("./Scenes/playScene");
 var config = {
     type: Phaser.AUTO,
     width: 800,
@@ -9,6 +9,15 @@ var config = {
     scale: {
         mode: Phaser.Scale.FIT,
         autoCenter: Phaser.Scale.CENTER_BOTH,
+    },
+    backgroundColor: 0x494949,
+    physics: {
+        default: "arcade",
+        arcade: {
+            gravity: {
+                y: 800
+            }
+        }
     },
     disableContextMenu: true,
     scene: [

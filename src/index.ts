@@ -1,4 +1,4 @@
-import PlayScene from "./scenes/playScene";
+import PlayScene from "./Scenes/playScene";
 
 let config: Phaser.Types.Core.GameConfig = {
     type: Phaser.AUTO,
@@ -8,6 +8,15 @@ let config: Phaser.Types.Core.GameConfig = {
     scale: {
         mode: Phaser.Scale.FIT,
         autoCenter: Phaser.Scale.CENTER_BOTH,
+    },
+    backgroundColor: 0x494949,
+    physics: {
+        default: "arcade",
+        arcade: {
+            gravity: { 
+                y: 800
+            }
+        }
     },
     disableContextMenu: true,
     scene: [
